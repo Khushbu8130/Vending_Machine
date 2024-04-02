@@ -1,7 +1,7 @@
 package item;
 
 public class ItemShelf {
-// Item-> ItemType, price, code, soldOut
+
     private int itemCode;
     private Item item;
     private boolean soldOut;
