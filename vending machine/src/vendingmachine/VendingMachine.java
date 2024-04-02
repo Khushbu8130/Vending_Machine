@@ -6,7 +6,7 @@ import java.util.*;
 
 public class VendingMachine {
     private VendingMachineState vendingMachineState;
-    private Inventory inventory; // ItemShelf -> Item, Itemcode, soldout -> price, Itemtype
+    private Inventory inventory; 
     private List<Coin> coinList;
 
     public VendingMachine() {
